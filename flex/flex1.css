@@ -1,0 +1,22 @@
+.box_container{
+    margin: 10px;
+    border: 2px solid rgb(245, 139, 157);
+    border-radius: 5px;
+    width: 600px;
+    height:180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    margin: 15px;
+    background-color: rgb(245, 139, 157);
+    border: 5px solid rgb(245, 139, 157);
+    border-radius: 3px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
