@@ -1,0 +1,66 @@
+*{
+    color: gray
+    font-family: "Spoqa Han Sans", "Spoqa Han Sans JP", "Sans-serif";
+}
+
+.box_container{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justifiy-content: center;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#link{
+    color: blue;
+    font-weight: 500;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+   
+}
+
+.bank_box{
+    display: flex;
+    width: 90%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 0 30px 60px 12px rgba(0, 0, 33, 0.05),
+                0 4px 24px 0 rgba(0, 0, 33, 0.05),
+                0 0 1px 0 rgba(0, 0, 33, 0.09);
+    border-radius: 5px;
+    align-items: center;
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+
+.bank_name{
+    font-size: 13px;
+    color: lightslategray;
+    font-weight: 500;
+    width: 150px;
+}
+
+.money_box{
+    display: flex;
+    width: 250px;
+    justify-content: flex-end;
+}
+
+.money{
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 20px;
+}
